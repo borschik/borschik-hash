@@ -30,8 +30,9 @@
   },
   "scripts": {
     "pretest": "npm run lint",
-    "test": "mocha test",
+    "test": "npm run unit-test",
     "lint": "eslint .",
+    "unit-test": "mocha test",
     "cover": "nyc mocha test"
   }
 }
