@@ -1,0 +1,37 @@
+{
+  "name": "borschik-hash",
+  "version": "0.0.0",
+  "description": "Borschik hash function to freeze files",
+  "license": "MIT",
+  "repository": "borschik/borschik-hash",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "borschik",
+    "hash",
+    "freeze",
+    "files",
+    "crypto",
+    "sha1",
+    "base64"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.6.0",
+    "eslint-config-pedant": "^0.8.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2"
+  },
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha test",
+    "lint": "eslint .",
+    "cover": "nyc mocha test"
+  }
+}
