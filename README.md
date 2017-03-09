@@ -1,7 +1,7 @@
 borschik-hash
 =============
 
-[Borschik](https://github.com/borschik/borschik) hash function to freeze files.
+[Borschik](https://github.com/borschik/borschik) hash function to [freeze](https://github.com/borschik/borschik/blob/master/docs/freeze/freeze.en.md) files.
 
 [![NPM Status][npm-img]][npm]
 [![Travis Status][test-img]][travis]
