@@ -1,38 +1,10 @@
-var crypto = require('crypto');
+var sha1Base64 = require('./lib/sha1-base64');
+var fixBase64 = require('./lib/fix-base64');
 
 /**
- * Code content by SHA1 Base64 algorithm.
- *
- * @param {String} content — content to code.
- * @returns {String} Coded content.
- */
-function sha1Base64(content) {
-    var sha1 = crypto.createHash('sha1');
-
-    sha1.update(content);
-
-    return sha1.digest('base64');
-}
-
-/**
- * Fix Base64 string to accomplish Borschik needs.
- *
- * @param {String} base64 — string to fix.
- * @returns {String} Fixed string.
- */
-function fixBase64(base64) {
-    return base64
-        .replace(/\+/g, '-')
-        .replace(/\//g, '_')
-        .replace(/=/g, '')
-        .replace(/^[+-]+/g, '');
-}
-
-/**
- * Fix
+ * Codes content by SHA1 Base64 algorithm with fix Base64 string to accomplish Borschik needs.
  *
  * @param {String} contents — file contents.
- *
  * @returns {String}
  */
 module.exports = function (contents) {
