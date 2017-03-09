@@ -1,6 +1,6 @@
 {
   "name": "borschik-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Borschik hash function to freeze files",
   "license": "MIT",
   "repository": "borschik/borschik-hash",
