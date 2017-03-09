@@ -15,6 +15,9 @@
     "base64"
   ],
   "main": "index.js",
+  "bin": {
+    "borschik-hash": "bin/cli.js"
+  },
   "files": [
     "lib/**",
     "index.js"
@@ -35,5 +38,8 @@
     "lint": "eslint .",
     "unit-test": "mocha test",
     "cover": "nyc mocha test"
+  },
+  "dependencies": {
+    "meow": "^3.7.0"
   }
 }
