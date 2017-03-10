@@ -34,8 +34,9 @@ var hash = borschikHash(contents);
 CLI
 ---
 
-```sh
+```shell
 $ borschik-hash path/to/file
+
 LWJmVQ8Q4Kn5C4mK3iYXHyieR7g
 ```
 
