@@ -15,6 +15,9 @@
     "base64"
   ],
   "main": "index.js",
+  "bin": {
+    "borschik-hash": "bin/cli.js"
+  },
   "files": [
     "lib/**",
     "index.js"
