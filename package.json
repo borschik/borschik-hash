@@ -19,6 +19,7 @@
     "borschik-hash": "bin/cli.js"
   },
   "files": [
+    "bin/**",
     "lib/**",
     "index.js"
   ],
