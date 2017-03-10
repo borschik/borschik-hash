@@ -31,6 +31,14 @@ var hash = borschikHash(contents);
 // ➜ LWJmVQ8Q4Kn5C4mK3iYXHyieR7g
 ```
 
+CLI
+---
+
+```sh
+$ borschik-hash path/to/file
+LWJmVQ8Q4Kn5C4mK3iYXHyieR7g
+```
+
 License
 -------
 

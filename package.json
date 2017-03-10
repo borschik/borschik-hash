@@ -38,8 +38,5 @@
     "lint": "eslint .",
     "unit-test": "mocha test",
     "cover": "nyc mocha test"
-  },
-  "dependencies": {
-    "meow": "^3.7.0"
   }
 }
