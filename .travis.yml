@@ -10,6 +10,7 @@ matrix:
       env: SKIP_LINT=1
     - node_js: "4"
     - node_js: "6"
+    - node_js: "8"
       env: COVERALLS=1
 
 script:
